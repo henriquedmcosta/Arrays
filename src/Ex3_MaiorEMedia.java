@@ -18,7 +18,7 @@ public class Ex3_MaiorEMedia {
 
          if (numero > maior) maior = numero;   
 
-         count = ++count;
+         count++;
         }while(count < 5);
 
         System.out.println("Maior: " + maior);
